@@ -35,7 +35,7 @@ cc_library_shared {
         arm: {
             instruction_set: "arm",
 
-            neon: {
+            armv7_a_neon: {
                 cflags: [
                     "-DH264DEC_NEON",
                     "-DH264DEC_OMXDL",
